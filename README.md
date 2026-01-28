@@ -20,6 +20,7 @@ CREATE TABLE Produits (
 INSERT INTO Produits (nom , prix , stock) VALUE ('bimo' , 1.99 , 200) , ('l'eau' , 0.99 , 300) , ('danon' , 3.99 , 200) ;
 
 3-
-
+UPDATE Produits SET prix = prix * 1.1 ; 
+DELETE FROM Produits WHERE stock = 0 ;
 
 
